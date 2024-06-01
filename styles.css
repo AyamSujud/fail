@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(236, 234, 234);
+    margin: 0;
+    padding: 0;
+    background-image: url(Akihabara.webp);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1981d6;
+    padding: 5px 20px;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo img {
+    height: 40px;
+}
+
+.navbar-text span {
+    color: white;
+    font-size: 18px;
+    margin-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+
+.navbar-links li {
+    margin-left: 20px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: rgb(30, 146, 223);
+    font-size: 20px;
+    transition: color 0.3s;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-links a:hover {
+    color: #555555;
+}
+
+.search{
+    max-width: 50px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 50px;
+    margin: 20px 100px 50px 150px ;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.account{
+    max-width: 50px;
+    height: auto;
+    margin-left: -950px;
+
+}
+
+.hello {
+    font-size: 24px;
+    color: #333;
+}
+
+.welcome {
+    font-size: 24px;
+    color: #333;
+}
+
+.name {
+    font-size: 17px;
+    color: #333;
+    margin-top: -40px;
+    margin-right: 670px;
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+}
+
+h2 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 30px;
+    margin-right: 1000px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 60%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
+
+.done li {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.deleted li {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.task-actions button {
+    margin-left: 5px;
+    cursor: pointer;
+    background-color: #f44336;
+    border: none;
+    color: #ffffff;
+    border-radius: 3px;
+    padding: 5px 8px;
+    font-size: 12px;
+}
+
+.task-actions button.done {
+    background-color: #4caf50;
+}
+
+.task-actions button.rename {
+    background-color: #ff9800;
+}
+
+.task-actions button:hover {
+    opacity: 0.8;
+}
